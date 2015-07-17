@@ -1,0 +1,53 @@
+.land {
+  fill: #fff;
+  stroke: #aaa;
+  stroke-opacity: 1;
+  stroke-width: .5px;
+}
+
+.county-boundary {
+  fill: none;
+  stroke: #ddd;
+  stroke-width: .3px;
+}
+
+.state-boundary {
+  fill: none;
+  stroke: #ddd;
+}
+
+
+.graticule {
+  fill: none;
+  stroke: #ddd;
+  stroke-opacity: 1;
+  stroke-width: .5px;
+}
+
+.boundary {
+  fill: none;
+  stroke: #aaa;
+  stroke-width: .5px;
+}
+
+.d3-tip {
+	font-family:helvetica;
+  line-height: 1;
+  font-size:12px;
+  padding: 10px;
+  background: rgba(255,255,255, 0.8);
+  color: #666;
+  border-radius: 2px;
+  border:1px solid #aaa;
+}
+#descriptions{
+	position:fixed;
+	left:20px;
+	bottom:20px;
+}
+#title{
+	font-size:14px;
+	color:#888;
+	padding:20px;
+	font-family:helvetica;
+}
