@@ -40,7 +40,7 @@ function dataDidLoad(error, worldmap,foreignPorts,usPorts,pairs,routes,cargo) {
 			var cargoContent = cargo[line].contents
 			console.log(currentCargo)
 			drawCargo(currentCargo,usPorts,foreignPorts,cargoContent)
-		},1500);
+		},1000);
 	
 }
 function drawCargo(line,usPorts,foreignPorts,content){
